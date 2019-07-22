@@ -89,15 +89,16 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': '127.0.0.1',
         'PORT': '3306',
-        'NAME': 'guest_dev',
+        'NAME': 'guest',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': '123',
         'OPTIONS': {
             'init_command': "SET sql_mode='NO_ENGINE_SUBSTITUTION,NO_AUTO_CREATE_USER'",
         },
     }
 }
 '''
+#管理员账号admin/admin123456
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
